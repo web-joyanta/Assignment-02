@@ -276,7 +276,7 @@ td {
   border: 1px solid #ffffff1a;
   border-collapse: collapse;
 }
-.your-calculator{
+.your-calculator {
   margin-bottom: 50px;
 }
 .your-calculator-dsc {
@@ -299,10 +299,42 @@ td {
   background: rgba(255, 255, 255, 0.1);
   border: none;
 }
-.activity-factor{
+.activity-factor {
   width: 577px;
   margin: 12px 0 34px 0;
 }
+/* Meet Our Team style */
+.meet-team{
+  padding-bottom: 88px;
+}
+.meet-team-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.meet-team-image {
+  position: relative;
+}
+.meet-team-image img {
+  width: 100%;
+}
+.img-content {
+  position: absolute;
+  left: 20px;
+  bottom: 16px;
+}
+.img-content h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+}
+.img-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
 @media screen and (max-width: 576px) {
   /* Share Style */
   .primary-btn {
@@ -404,19 +436,23 @@ td {
   .calculator-dsc {
     width: 353px;
   }
-  .bmi-items{
+  .bmi-items {
     flex-direction: column;
   }
-  .bmi-items h4{
+  .bmi-items h4 {
     font-size: 16px;
   }
-  .your-calculator-dsc{
+  .your-calculator-dsc {
     width: 346px;
   }
-  .input-field{
+  .input-field {
     padding: 10px 0;
   }
-  .activity-factor{
+  .activity-factor {
     width: 350px;
+  }
+  /*  Meet Our Team */
+  .meet-team-items {
+    grid-template-columns: auto;
   }
 }
