@@ -195,7 +195,7 @@ nav ul li a {
   justify-content: space-between;
   gap: 40px;
 }
-.habit-items{
+.habit-items {
   text-align: center;
 }
 .habit-item img {
@@ -208,14 +208,30 @@ nav ul li a {
   font-weight: 600;
   margin: 30px 0 6px 0;
 }
-.habit-item-dsc{
+.habit-item-dsc {
   width: 231px;
   margin: 0 auto;
 }
-
-
-
-
+/* run-extra */
+.run-extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 156px;
+  border-radius: 18px;
+  background: #222;
+  padding: 30px 32px 30px 54px;
+}
+.run-extra-title {
+  width: 400px;
+}
+.run-extra-dsc {
+  width: 443px;
+  margin: 14px 0 35px 0;
+}
+.run-extra-image img {
+  width: 100%;
+}
 
 @media screen and (max-width: 576px) {
   /* Share Style */
@@ -291,7 +307,24 @@ nav ul li a {
   .habit-title {
     font-size: 32px;
   }
-  .habit-items{
+  .habit-items {
     flex-direction: column;
+  }
+  /* Run an Extra */
+  .run-extra{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .run-extra-title{
+    width: 200px;
+    font-size: 32px;
+  }
+  .run-extra-dsc{
+    width: 230px;
+  }
+  .join-now-btn{
+    padding: 16px 70px;
+    font-size: 18px;
+    text-align: center;
   }
 }
