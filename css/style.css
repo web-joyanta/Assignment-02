@@ -232,6 +232,46 @@ nav ul li a {
 .run-extra-image img {
   width: 100%;
 }
+/* Expert Coaches style */
+.expert-title {
+  text-align: center;
+  padding-top: 88px;
+}
+.expert-dsc {
+  text-align: center;
+  width: 671px;
+  margin: 14px auto 88px auto;
+}
+.expert-coaches {
+  display: flex;
+  gap: 30px;
+}
+.expert-coaches-item {
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+.expert-coaches-item h1 {
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.expert-coaches-item h1 span {
+  color: #e6533c;
+}
+.expert-coaches-item h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.expert-coaches-item p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
 /* BMI Calculator style */
 .calculator-title-content {
   text-align: center;
@@ -481,6 +521,22 @@ td {
     font-size: 18px;
     text-align: center;
   }
+  /* Expert Coaches */
+  .expert-title{
+    font-size: 32px;
+  }
+  .expert-dsc{
+    width: 316px;
+  }
+  .expert-coaches {
+    flex-direction: column;
+  }
+  .expert-coaches-item h1{
+    font-size: 60px;
+  }
+  .expert-coaches-item h3{
+    font-size: 20px;
+  }
   /* BMI Calculator */
   .calculator-title {
     font-size: 32px;
@@ -508,14 +564,14 @@ td {
     grid-template-columns: auto;
   }
   /* fitness footer */
-  .fitness-footer{
+  .fitness-footer {
     flex-direction: column;
     gap: 30px;
   }
-  .footer-column p{
+  .footer-column p {
     width: 317px;
   }
-  .footer-links{
+  .footer-links {
     flex-direction: column;
     gap: 40px;
   }
