@@ -232,7 +232,77 @@ nav ul li a {
 .run-extra-image img {
   width: 100%;
 }
-
+/* BMI Calculator style */
+.calculator-title-content {
+  text-align: center;
+  padding: 88px 0;
+}
+.calculator-dsc {
+  width: 671px;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+.bmi-bg {
+  background: #222;
+}
+.bmi-items {
+  display: flex;
+  justify-content: space-between;
+}
+.bmi-items h4 {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 900;
+}
+table {
+  margin-top: 50px;
+}
+table th {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+table td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+table,
+th,
+td {
+  padding: 15px 30px;
+  border: 1px solid #ffffff1a;
+  border-collapse: collapse;
+}
+.your-calculator{
+  margin-bottom: 50px;
+}
+.your-calculator-dsc {
+  width: 577px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  padding: 14px 0 34px 0;
+}
+.calculator-input {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 12px;
+}
+.input-field {
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+.activity-factor{
+  width: 577px;
+  margin: 12px 0 34px 0;
+}
 @media screen and (max-width: 576px) {
   /* Share Style */
   .primary-btn {
@@ -311,20 +381,42 @@ nav ul li a {
     flex-direction: column;
   }
   /* Run an Extra */
-  .run-extra{
+  .run-extra {
     flex-direction: column;
     gap: 50px;
   }
-  .run-extra-title{
+  .run-extra-title {
     width: 200px;
     font-size: 32px;
   }
-  .run-extra-dsc{
+  .run-extra-dsc {
     width: 230px;
   }
-  .join-now-btn{
+  .join-now-btn {
     padding: 16px 70px;
     font-size: 18px;
     text-align: center;
+  }
+  /* BMI Calculator */
+  .calculator-title {
+    font-size: 32px;
+  }
+  .calculator-dsc {
+    width: 353px;
+  }
+  .bmi-items{
+    flex-direction: column;
+  }
+  .bmi-items h4{
+    font-size: 16px;
+  }
+  .your-calculator-dsc{
+    width: 346px;
+  }
+  .input-field{
+    padding: 10px 0;
+  }
+  .activity-factor{
+    width: 350px;
   }
 }
